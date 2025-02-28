@@ -1,0 +1,5 @@
+[build]
+preinstall = [
+  "apt-get update",
+  "apt-get install -y libsndfile1 build-essential python3-dev libssl-dev libffi-dev"
+]
